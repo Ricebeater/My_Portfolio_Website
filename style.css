@@ -21,7 +21,7 @@ body{
 
 a{
    color: var(--link-color);
-text-decoration: none;
+    text-decoration: none;
 }
 
 nav{
@@ -32,29 +32,7 @@ nav{
     height: 80px;
 }
 
-nav .left a{
-    color: var(--text-color);
-    font-size: 36px;
-    font-weight: 600;
-}
-
-nav .right a{
-    color: var(--text-color);
-    font-size: 22px;
-    margin: 0 10px;
-}
-
-/* .hero-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px;
-    margin: 50px 0;
-    margin-bottom: 100px;
-    gap: 40px;
-} */
-
 .text{
     text-align: center;
-    font-size: 100px;
+    font-size: 200px;
 }
