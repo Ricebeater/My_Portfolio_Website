@@ -1,7 +1,7 @@
 :root{
-    --text-color: #020064;
+    --text-color: #ffffff;
     --link-color: #4a76ee;
-    --background-color: #f5f8cd;
+    --background-color: #000000;
 }
 
 html{
@@ -67,7 +67,7 @@ nav .right a span{
 }
 
 .hero-section .text{
-    padding: 0 50px;
+    padding: 0 30px;
     flex: 9;
 }
 
@@ -82,11 +82,44 @@ nav .right a span{
 .hero-section .headshot{
     display: flex;
     justify-content: right;
+    margin-right: 30px;
+    margin-bottom: 10px;
     flex: 3;
 }
 
 .hero-section .headshot img{
-    border-radius: 100px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+@media (max-width: 890px){
+    .hero-section{
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .hero-section {
+        padding: 20px;
+    }
+
+    .hero-section .headshot{
+        margin-right: 0;
+    }
+
+    .hero-section .headshot img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 430px){
+    .hero-section{
+        padding: 3px;
+    }
+
+    .hero-section .text h2{
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 700px){
